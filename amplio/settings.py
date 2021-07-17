@@ -12,9 +12,9 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os 
-import django_heroku
-import dj_database_url
-import psycopg2
+# import django_heroku
+# import dj_database_url
+# import psycopg2
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -130,11 +130,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # STATICFILES_DIRS = (
 #     os.path.join(BASE_DIR, 'static'),
 # )
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-DATABASE_URL = os.environ['DATABASE_URL']
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
-prod_db  =  dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(prod_db)
+# DATABASE_URL = os.environ['DATABASE_URL']
+# conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+# prod_db  =  dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(prod_db)
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
