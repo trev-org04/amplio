@@ -758,6 +758,24 @@ footer .footer-col:first-child p {
 
         padding-bottom: 10vh;
     }
+    .floatmessage  {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+      
+        width: 100%;
+        
+        font-family: 'Encode Sans Expanded', sans-serif;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+      
+        background-color: #11395c;
+      
+        padding: 1em;
+      
+        box-sizing: border-box;
+    }
   .headsection-wrapper-platforms {
     display: none;
   }
