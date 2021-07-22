@@ -1,7 +1,7 @@
-from django.contrib import admin
+# from django.contrib import admin
 
-from . import models
+# from . import models
 
-class Registration(admin.ModelAdmin):
-    pass
-admin.site.register(models.registration, Registration)
+# class Registration(admin.ModelAdmin):
+#     pass
+# admin.site.register(models.registration, Registration)
