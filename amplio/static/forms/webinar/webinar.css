@@ -91,6 +91,9 @@ header img {
     color: #4E4E4E;
     font-weight: 500;
 }
+.labeledelement div  {
+    padding-bottom: 1em;
+}
 input, select, textarea {
     background-color: transparent;
 

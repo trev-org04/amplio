@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Montserrat:wght@500;600&display=swap"
         rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -42,21 +43,13 @@
                     <div>
                         Name
                     </div>
-                    <input type="text" name="name" required>
+                    {{webinarForm.name}}
                 </div>
                 <div class="labeledelement">
                     <div>
                         Grade
                     </div>
-                    <select name="grade" required>
-                        <option value="6">6th</option>
-                        <option value="7">7th</option>
-                        <option value="8">8th</option>
-                        <option value="9">9th</option>
-                        <option value="10">10th</option>
-                        <option value="11">11th</option>
-                        <option value="12">12th</option>
-                    </select>
+                    {{webinarForm.grade}}
                 </div>
             </div>
             <div class="formrow">
@@ -64,22 +57,26 @@
                     <div>
                         Email
                     </div>
-                    <input type="email" name="email" required>
+                    {{webinarForm.email}}
                 </div>
                 <div class="labeledelement">
                     <div>
                         Webinar Date
                     </div>
-                    <select name="date" required>
-                        <option value="July 24">July 24</option>
-                    </select>
+                    {{webinarForm.date}}
                 </div>
             </div>
             <div class="labeledelement">
                 <div>
                     What do you want to see in this webinar?
                 </div>
-                <textarea name="extraInfo" required></textarea>
+                {{webinarForm.extraInfo}}
+            </div>
+            <div class="labeledelement">
+                <div>
+                    Verification
+                </div>
+                {{webinarForm.captcha}}
             </div>
             <button type="submit">Submit</button>
         </form>
