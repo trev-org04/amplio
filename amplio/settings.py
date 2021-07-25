@@ -27,14 +27,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'krb1kb)g3ha*cjqdpr*#*g_h!)axceoq%3)h006c5j024*paze'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'fb2aae6e29f0.ngrok.io', 'amplio.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'amplio.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
