@@ -1,6 +1,5 @@
 from django import forms
 from django.forms import ModelForm, TextInput, EmailInput, Select, Textarea
-from captcha.fields import CaptchaField
 from .models import registration
 
 grades =(
@@ -34,4 +33,3 @@ class WebinarForm(ModelForm):
                 'class': "form-control",
             }),
         }
-    captcha = CaptchaField()

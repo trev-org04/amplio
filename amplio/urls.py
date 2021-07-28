@@ -8,7 +8,6 @@ urlpatterns = [
     path('forms/webinar/', views.webinar, name='webinar_form'),
     path('forms/waitlist/', views.waitlist, name='waitlist_form'),
     path('admin/', admin.site.urls),
-    path(r'captcha/', include('captcha.urls')),
 ]
 
 handler404 = 'amplio.views.handler404'
