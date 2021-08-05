@@ -13,7 +13,7 @@ grades =(
 )
 
 webinarDates =(
-    ("July 24", "July 24"),
+    ("August 29, 5-7 PM", "August 29, 5-7 PM"),
 )
 
 class WebinarForm(ModelForm):
