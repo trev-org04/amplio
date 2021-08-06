@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Encode Sans Expanded 600';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/encode-sans-expanded-v5-latin-600.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'Encode Sans Expanded 700';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/encode-sans-expanded-v5-latin-700.woff2') format('woff2');
+  }
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v16-latin-600.woff2') format('woff2');
+}
 * {
     padding: 0;
     margin: 0;
@@ -73,7 +91,7 @@ header img {
 .headsection-wrapper-content button a{
     color:rgba(255, 255, 255, 1);
     text-decoration: none;
-    font-family: "Encode Sans Expanded", sans-serif;
+    font-family: "Encode Sans Expanded 600", sans-serif;
 }
 .headsection-wrapper-content span{
   color: #26547C;
@@ -94,7 +112,7 @@ header img {
     color: white;
     font-weight: 600;
     font-size: 115%;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
 
     border: none;
     border-radius: 7px;
@@ -129,7 +147,7 @@ header img {
 .headsection-sub .headsection-sub-text h2 {
     font-weight: 600;
     font-size: 225%;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
 }
 .headsection-sub .headsection-sub-text h2 span {
     color: #26547C;
@@ -196,7 +214,7 @@ header img {
     font-size: 125%;
 }
 .headsection-scrollnode h2 {
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
     font-weight: 600;
     font-size: 175%;
 
@@ -254,7 +272,7 @@ header img {
     display: inline-block;
 
     color: white;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
     font-weight: 600;
     font-size: 115%;
 
@@ -267,7 +285,7 @@ header img {
 .appsection-contentlayer-col1-header h2 {
     font-size: 225%;
     font-weight: 600;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
 }
 .appsection-contentlayer-col1-header h2 span {
     color: #2C6393;
@@ -370,7 +388,7 @@ header img {
 .ecosection-contentwrapper h1:first-child {
     font-size: 225%;
     font-weight: 600;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
     text-align: center;
 
     margin-bottom: 1em;
@@ -385,7 +403,7 @@ header img {
 }
 .ecosystem-platformnode h4 {
     font-weight: 600;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
     font-size: 130%;
 
     margin-bottom: 1.5em;
@@ -416,7 +434,7 @@ header img {
     align-items: center;
 }
 .ecosystem-platformnode-statsec div:first-child {
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Encode Sans Expanded 600", sans-serif;
   font-size: 135%;
 }
 .ecosystem-platformnode-statsec div:last-child {
@@ -429,7 +447,7 @@ header img {
 .ecosystem-platformnode-disabledbutton {
   padding: .75em 1.75em;
   margin-top: 1.5em;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Encode Sans Expanded 600", sans-serif;
   transition: opacity 0.1s ease;
   border-radius: 7px;
 }
@@ -440,7 +458,7 @@ header img {
 .ecosystem-platformnode-disabledbutton a{
   color:rgba(255, 255, 255, 1);
   text-decoration: none;
-  font-family: "Encode Sans Expanded", sans-serif;
+  font-family: "Encode Sans Expanded 600", sans-serif;
 
   border-radius: 7px;
 }
@@ -491,7 +509,7 @@ header img {
 .feedback h1 {
     font-size: 225%;
     font-weight: 600;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
 
     margin-bottom: 1em;
 
@@ -565,7 +583,7 @@ header img {
     font-size: 250%;
     color: #E2E2E2;
     font-weight: 700;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 700', sans-serif;
 }
 .webinar-background {
     position: absolute;
@@ -646,7 +664,7 @@ footer .footer-col:first-child p {
 }
 .footer-col-title {
     color: white;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
     font-size: 125%;
 
     margin-bottom: 1em;
@@ -708,7 +726,7 @@ footer .footer-col:first-child p {
     color: white;
     font-weight: 600;
     font-size: 115%;
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans Expanded 600', sans-serif;
     border: none;
     border-radius: 7px;
     padding: .5em 1.5em;
@@ -732,7 +750,7 @@ footer .footer-col:first-child p {
 
   width: 100%;
   
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: 'Encode Sans Expanded 600', sans-serif;
   color: rgba(255, 255, 255, 1);
   text-align: center;
 
@@ -766,7 +784,7 @@ footer .footer-col:first-child p {
       
         width: 100%;
         
-        font-family: 'Encode Sans Expanded', sans-serif;
+        font-family: 'Encode Sans Expanded 600', sans-serif;
         color: rgba(255, 255, 255, 1);
         text-align: center;
       
