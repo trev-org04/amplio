@@ -385,7 +385,7 @@ header img {
     display: flex;
     justify-content: center;
 }
-.ecosection-contentwrapper h1:first-child {
+.ecosection-contentwrapper h2:first-child {
     font-size: 225%;
     font-weight: 600;
     font-family: 'Encode Sans Expanded 600', sans-serif;
@@ -393,7 +393,7 @@ header img {
 
     margin-bottom: 1em;
 }
-.ecosection-contentwrapper h1:first-child span {
+.ecosection-contentwrapper h2:first-child span {
   color: #2c6393;
 }
 .ecosystem-platformwrapper .ecosystem-platformnode:nth-child(2) {
@@ -577,7 +577,7 @@ header img {
 
     border-radius: 30px;
 }
-.webinar-content h1 {
+.webinar-content h2 {
     margin-bottom: 2em;
 
     font-size: 250%;
